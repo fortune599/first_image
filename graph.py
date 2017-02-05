@@ -1,5 +1,5 @@
 def main():
-  f = open("image.ppm", "w+")
+  f = open("angery.ppm", "w+")
   f.write("P3 500 500 255\n")
   for y in range(500):
     for x in range (500):
@@ -25,7 +25,7 @@ def main():
         b = 0
       f.write("%d %d %d\n" % (r,g,b,))
   f.close()
-  print("image.ppm created")
+  print("angery.ppm c r e a t e d")
   return
 
 
